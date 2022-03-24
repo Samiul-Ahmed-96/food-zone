@@ -1,14 +1,17 @@
 <template>
-  <HelloWorld msg="Welcome to Your Vue.js App" />
+  <Header />
+  <Footer />
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import Header from "./components/Shared/Header/Header.vue";
+import Footer from "./components/Shared/Footer/Footer.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    Header,
+    Footer,
   },
 };
 </script>
