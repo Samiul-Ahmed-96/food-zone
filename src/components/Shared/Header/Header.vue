@@ -8,7 +8,7 @@
         <ul>
           <li><a href="index.html">home</a></li>
           <li><a href="#about">about</a></li>
-          <li><a href="#recipies">recipies</a></li>
+          <li><a href="#recipies">Foods</a></li>
           <li><a href="#stuff">stuff</a></li>
           <li><a href="#contact">contact</a></li>
         </ul>
