@@ -6,11 +6,11 @@
       </div>
       <div class="menu">
         <ul>
-          <li><a href="index.html">home</a></li>
-          <li><a href="#about">about</a></li>
-          <li><a href="#recipies">Foods</a></li>
-          <li><a href="#stuff">stuff</a></li>
-          <li><a href="#contact">contact</a></li>
+          <li><router-link to="/">Home</router-link></li>
+          <li><a href="">about</a></li>
+          <li><a href="#foods">Foods</a></li>
+          <li><a href="">stuff</a></li>
+          <li><a href="">contact</a></li>
         </ul>
       </div>
     </div>
@@ -27,14 +27,7 @@ export default {
 <style scoped>
 .main-header {
   display: flex;
-}
-
-.logo {
-  width: 30%;
-}
-
-.menu {
-  width: 70%;
+  justify-content: space-around;
 }
 
 .menu ul li {

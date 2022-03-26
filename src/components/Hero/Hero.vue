@@ -15,7 +15,7 @@
             <button class="hero-btn">order food</button>
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 mt-5">
           <div class="right-hero">
             <img class="w-100" src="../../img/hero/hero.png" alt="" />
           </div>
@@ -69,7 +69,6 @@ export default {
   text-transform: capitalize;
   font-weight: 600;
   letter-spacing: 2px;
-  font-family: "Montserrat", sans-serif;
   box-shadow: 0px 0px 15px 0px #fd8f40;
   transition: 0.5s;
   cursor: pointer;
