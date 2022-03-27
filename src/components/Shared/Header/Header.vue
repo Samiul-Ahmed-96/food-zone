@@ -2,7 +2,9 @@
   <section class="header">
     <div class="main-header">
       <div class="logo">
-        <a href="index.html"><img src="../../../img/logo.png" alt="logo" /></a>
+        <router-link to="/"
+          ><img src="../../../img/logo.png" alt="logo"
+        /></router-link>
       </div>
       <div class="menu">
         <ul>
