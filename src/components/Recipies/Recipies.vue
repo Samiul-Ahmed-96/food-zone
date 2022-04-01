@@ -80,6 +80,8 @@ export default {
   font-size: 18px;
   color: #252525;
   line-height: 2;
+  width: 500px;
+  margin: 30px auto;
 }
 
 .recipe-detail {

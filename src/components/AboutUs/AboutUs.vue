@@ -34,6 +34,7 @@ export default {};
   background-position: center top;
   background-size: cover;
   margin: 80px;
+  border-radius: 20px;
 }
 
 .right-about h1 {

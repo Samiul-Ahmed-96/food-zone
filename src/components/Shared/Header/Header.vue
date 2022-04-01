@@ -1,20 +1,47 @@
 <template>
   <section class="header">
-    <div class="main-header">
-      <div class="logo">
-        <router-link to="/"
-          ><img src="../../../img/logo.png" alt="logo"
-        /></router-link>
-      </div>
-      <div class="menu">
-        <ul>
-          <li><router-link to="/">Home</router-link></li>
-          <li><a href="/#about-us">about</a></li>
-          <li><a href="#foods">Foods</a></li>
-          <li><a href="#recipes">Recipies</a></li>
-          <li><router-link to="/contact">contact</router-link></li>
-        </ul>
-      </div>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <router-link class="navbar-brand" to="/"
+            ><img class="logo" src="../../../img/logo.png" alt=""
+          /></router-link>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <router-link class="nav-link active" aria-current="page" to="/"
+                  >Home</router-link
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/#about-us">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#foods">Foods</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#recipes">Recipes</a>
+              </li>
+              <li class="nav-item">
+                <router-link class="nav-link" to="/contact"
+                  >Contact</router-link
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </div>
   </section>
 </template>
@@ -27,16 +54,6 @@ export default {
 </script>
 
 <style scoped>
-.main-header {
-  display: flex;
-  justify-content: space-around;
-}
-
-.menu ul li {
-  display: inline-block;
-  padding: 25px 15px;
-}
-
 .header {
   background: #fc8f49;
 }
@@ -54,12 +71,17 @@ export default {
   color: #575757;
 }
 
-.logo img {
+img.logo {
   width: 150px;
-  padding: 25px;
-  float: right;
 }
-
+nav .navbar-nav li {
+  color: white !important;
+  font-size: 20px;
+  font-weight: 600;
+}
+nav .navbar-nav li a {
+  color: #fff !important;
+}
 .menu ul {
   margin-left: 150px;
 }

@@ -30,6 +30,7 @@ export default {
 <style scoped>
 .contact-from {
   text-align: center;
+  margin: 80px 0px;
 }
 .form input {
   width: 75%;

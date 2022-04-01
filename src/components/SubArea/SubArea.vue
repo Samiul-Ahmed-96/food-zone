@@ -1,5 +1,5 @@
 <template>
-  <section class="subscribe">
+  <section class="subscribe py-5">
     <div class="container">
       <div class="row">
         <div class="col-md-4 mt-2">

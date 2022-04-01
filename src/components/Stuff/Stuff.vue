@@ -1,5 +1,5 @@
 <template>
-  <section class="stuff">
+  <section class="stuff py-5">
     <div class="container">
       <div class="section-title">
         <h2>Our <span>Stuff</span></h2>
@@ -54,7 +54,7 @@ export default {
 <style scoped>
 section.stuff {
   background: url(https://i.ibb.co/6b5MVtf/background-3.png);
-  margin: 80px 0px;
+  margin-top: 80px;
   padding: 30px 0px;
 }
 

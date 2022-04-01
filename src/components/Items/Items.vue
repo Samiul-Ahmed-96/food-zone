@@ -4,6 +4,14 @@
       <div class="heading"><h2>Our Items</h2></div>
       <div class="row">
         <div
+          v-if="items.length === 0"
+          class="spinner-border text-warning"
+          role="status"
+        >
+          <span class="visually-hidden loader">Loading...</span>
+        </div>
+        <div
+          v-else
           v-for="item in items"
           :key="item._id"
           class="col-md-4 col-lg-4 col-sm-12 single-item"
@@ -54,6 +62,7 @@ export default {
 .item-info h3 {
   margin: 15px 0px;
 }
+
 .item-info {
   background: #fba24f;
   padding: 25px 15px;
