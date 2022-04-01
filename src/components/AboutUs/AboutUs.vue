@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-md-6 col-sm-12 col-lg-6">
           <div class="left-about">
-            <img class="w-100" src="../../img/about/about.png" alt="" />
+            <img class="w-100 p-4" src="../../img/about/about.png" alt="" />
           </div>
         </div>
         <div class="col-md-6 col-sm-12 col-lg-6">
@@ -49,8 +49,9 @@ export default {};
   font-weight: 500;
   color: #878787;
   text-align: justify;
-  margin: 57px 0px;
+  margin: 60px 0px;
   line-height: 2;
+  padding: 20px;
 }
 .right-about button {
   padding: 20px 35px;
