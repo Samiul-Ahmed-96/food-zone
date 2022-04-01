@@ -1,7 +1,7 @@
 <template>
   <section id="foods">
     <div class="container">
-      <div class="heading"><h1>Our Items</h1></div>
+      <div class="heading"><h2>Our Items</h2></div>
       <div class="row">
         <div
           v-for="item in items"
@@ -36,6 +36,7 @@ export default {
     let result = await axios.get("http://localhost:5000/items");
     console.log(result.data);
     this.items = result.data;
+    this.items = this.items.slice(0, 6);
   },
 };
 </script>
@@ -57,7 +58,7 @@ export default {
   background: #fba24f;
   padding: 15px;
   border-radius: 10px;
-  margin: 30px 0px;
+  margin: 15px 0px;
   color: #575757;
 }
 .item-info a {
@@ -66,18 +67,21 @@ export default {
   color: #fff;
   padding: 5px 20px;
   border-radius: 10px;
+  border: 2px solid #fff;
+  font-size: 18px;
 }
+
 .item-info h3 {
   font-weight: 600;
 }
 .heading {
   margin: 60px 0px;
 }
-.heading h1 {
-  font-size: 60px;
+.heading h2 {
   color: #fba24f;
   font-weight: 600;
   letter-spacing: 2px;
+  font-weight: 700;
 }
 </style>
 >
