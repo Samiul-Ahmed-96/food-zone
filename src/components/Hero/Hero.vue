@@ -12,7 +12,7 @@
               delicious food for you!
             </p>
 
-            <button class="hero-btn">order food</button>
+            <a href="#foods" class="hero-btn">order food</a>
           </div>
         </div>
         <div class="col-md-6 mt-5">
@@ -72,6 +72,7 @@ export default {
   box-shadow: 0px 0px 15px 0px #fd8f40;
   transition: 0.5s;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .hero-btn:hover {

@@ -10,7 +10,7 @@
         <div class="col-md-6 col-lg-6 col-sm-6">
           <div class="right-details">
             <h2>{{ singleItem?.name }}</h2>
-            <h4>{{ singleItem?.description }}</h4>
+            <p class="my-3">{{ singleItem?.description }}</p>
             <h6>Rating : {{ singleItem?.rating }}</h6>
             <h3>Price : {{ singleItem?.price }} $</h3>
           </div>

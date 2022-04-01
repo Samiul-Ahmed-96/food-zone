@@ -1,5 +1,5 @@
 <template>
-  <section class="stuff my-5">
+  <section class="stuff">
     <div class="container">
       <div class="section-title">
         <h2>Our <span>Stuff</span></h2>
@@ -9,7 +9,7 @@
           &amp; Steps. We'll take you through.
         </p>
       </div>
-      <div class="row recipes-main mt-4">
+      <div class="row recipes-main mt-5">
         <div
           v-for="stuff in stuffs"
           :key="stuff.id"
@@ -52,6 +52,12 @@ export default {
 };
 </script>
 <style scoped>
+section.stuff {
+  background: url(https://i.ibb.co/6b5MVtf/background-3.png);
+  margin: 80px 0px;
+  padding: 30px 0px;
+}
+
 .single-stuff {
   text-align: center;
 }

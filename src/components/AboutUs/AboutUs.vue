@@ -1,7 +1,7 @@
 <template>
   <section id="about-us" class="about-us">
     <div class="container main-about">
-      <div class="row">
+      <div class="row align-items-center">
         <div class="col-md-6 col-sm-12 col-lg-6">
           <div class="left-about">
             <img class="w-100 p-4" src="../../img/about/about.png" alt="" />
@@ -17,7 +17,7 @@
               and we are very busy all days advice you. advice you to call us of
               before arriving.
             </p>
-            <button class="hero-btn">Contact us</button>
+            <router-link to="/contact" class="hero-btn">Contact us</router-link>
           </div>
         </div>
       </div>
@@ -53,6 +53,26 @@ export default {};
   line-height: 2;
   padding: 20px;
 }
+.hero-btn {
+  padding: 20px 35px;
+  background: linear-gradient(
+    90deg,
+    rgba(252, 143, 73, 1) 0%,
+    rgba(255, 30, 30, 1) 100%
+  );
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 18px;
+  text-transform: capitalize;
+  font-weight: 600;
+  letter-spacing: 2px;
+  box-shadow: 0px 0px 15px 0px #fd8f40;
+  transition: 0.5s;
+  cursor: pointer;
+  text-decoration: none;
+}
+
 .right-about button {
   padding: 20px 35px;
   background: linear-gradient(
