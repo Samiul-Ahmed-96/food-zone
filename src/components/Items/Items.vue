@@ -56,7 +56,7 @@ export default {
 }
 .item-info {
   background: #fba24f;
-  padding: 15px;
+  padding: 25px 15px;
   border-radius: 10px;
   margin: 15px 0px;
   color: #575757;

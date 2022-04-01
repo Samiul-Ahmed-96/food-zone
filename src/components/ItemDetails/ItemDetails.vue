@@ -12,7 +12,7 @@
             <h2>{{ singleItem?.name }}</h2>
             <h4>{{ singleItem?.description }}</h4>
             <h6>Rating : {{ singleItem?.rating }}</h6>
-            <h3>Price : {{ singleItem?.price }}</h3>
+            <h3>Price : {{ singleItem?.price }} $</h3>
           </div>
         </div>
       </div>

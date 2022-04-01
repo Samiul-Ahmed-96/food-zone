@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router';
+import Contact from './components/Contact/Contact.vue';
 import Home from './components/Home/Home.vue';
 import ItemDetails from './components/ItemDetails/ItemDetails.vue';
 
@@ -13,7 +14,12 @@ const routes = [
         name : 'Details',
         path : '/details/:id',
         component : ItemDetails
-    }
+    },
+    {
+        name : 'Contact',
+        path : '/contact',
+        component : Contact
+    },
    
 ]
 

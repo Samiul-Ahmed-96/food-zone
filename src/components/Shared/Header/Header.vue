@@ -11,8 +11,8 @@
           <li><router-link to="/">Home</router-link></li>
           <li><a href="/#about-us">about</a></li>
           <li><a href="#foods">Foods</a></li>
-          <li><a href="#recipies">Recipies</a></li>
-          <li><a href="">contact</a></li>
+          <li><a href="#recipes">Recipies</a></li>
+          <li><router-link to="/contact">contact</router-link></li>
         </ul>
       </div>
     </div>
