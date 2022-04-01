@@ -9,7 +9,7 @@
       <div class="menu">
         <ul>
           <li><router-link to="/">Home</router-link></li>
-          <li><a href="">about</a></li>
+          <li><a href="#about-us">about</a></li>
           <li><a href="#foods">Foods</a></li>
           <li><a href="">stuff</a></li>
           <li><a href="">contact</a></li>

@@ -10,9 +10,12 @@
         >
           <img class="w-100" :src="item.img" alt="" />
           <div class="item-info">
-            <h3>{{ item.name }}</h3>
-            <h2>Rating : {{ item.rating }}</h2>
-            <h1>Price : {{ item.price }}</h1>
+            <h5>{{ item.name }}</h5>
+            <h6>Rating : {{ item.rating }}</h6>
+            <h3>Price : {{ item.price }}</h3>
+            <router-link :to="{ name: 'Details', params: { id: item._id } }"
+              >Details</router-link
+            >
           </div>
         </div>
       </div>
@@ -47,12 +50,22 @@ export default {
 .single-item img {
   width: 100%;
 }
+.item-info h3 {
+  margin: 15px 0px;
+}
 .item-info {
   background: #fba24f;
   padding: 15px;
   border-radius: 10px;
   margin: 30px 0px;
   color: #575757;
+}
+.item-info a {
+  text-decoration: none;
+  background: #575757;
+  color: #fff;
+  padding: 5px 20px;
+  border-radius: 10px;
 }
 .item-info h3 {
   font-weight: 600;

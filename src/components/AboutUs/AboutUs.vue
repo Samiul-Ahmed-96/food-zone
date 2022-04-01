@@ -1,10 +1,10 @@
 <template>
-  <section class="about-us">
-    <div class="container">
+  <section id="about-us" class="about-us">
+    <div class="container main-about">
       <div class="row">
         <div class="col-md-6 col-sm-12 col-lg-6">
           <div class="left-about">
-            <img src="../../img/about/about.png" alt="" />
+            <img class="w-100" src="../../img/about/about.png" alt="" />
           </div>
         </div>
         <div class="col-md-6 col-sm-12 col-lg-6">
@@ -24,9 +24,16 @@
     </div>
   </section>
 </template>
+<script>
+export default {};
+</script>
 <style scoped>
-.right-about {
-  margin-top: 50px;
+.about-us {
+  background: url(https://i.ibb.co/6b5MVtf/background-3.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  margin: 80px;
 }
 
 .right-about h1 {
@@ -34,9 +41,10 @@
   color: #575757;
   text-transform: capitalize;
 }
-
+.main-about {
+  padding: 60px 0px;
+}
 .right-about p {
-  width: 650px;
   font-size: 20px;
   font-weight: 500;
   color: #878787;
